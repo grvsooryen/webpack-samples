@@ -1,0 +1,26 @@
+{
+  "name": "webpack-devserver-demo-nazim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {}, 
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.2",
+    "copy-webpack-plugin": "^5.0.3",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1",
+    "concurrently": "^4.1.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config './webpack/webpack.config.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
