@@ -1,0 +1,17 @@
+{
+  "name": "initial-setup",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {}
+}
