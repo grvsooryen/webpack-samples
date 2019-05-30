@@ -1,8 +1,8 @@
 const path = require('path');
 
-const CleanWebpackPlugin = require("clean-webpack-plugin");
-const MinifyPlugin = require("babel-minify-webpack-plugin");
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const CleanWebpackPlugin = require("clean-webpack-plugin");
+// const MinifyPlugin = require("babel-minify-webpack-plugin");
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
@@ -14,19 +14,19 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "[name].min.js"
+    filename: "[name].js"
     // String substitutions
     // [name]
     // [contenthash]
   },
 
-  plugins: [
-    new HtmlWebpackPlugin({
-      filename : "index.html",
-      title: "Webpack Plugins"
-    }),
-    new MinifyPlugin(),
-    new CleanWebpackPlugin()
-  ]
+  // plugins: [
+  //   new HtmlWebpackPlugin({
+  //     filename : "index.html",
+  //     title: "Webpack Plugins"
+  //   }),
+  //   // new MinifyPlugin(),
+  //   // new CleanWebpackPlugin()
+  // ]
 
 };
