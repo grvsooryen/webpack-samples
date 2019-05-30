@@ -1,12 +1,16 @@
 {
-  "name": "devTool",
+  "name": "dev-tool",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devtool" : "webpack"
+    "devtool": "webpack"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
 }

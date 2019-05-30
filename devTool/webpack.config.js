@@ -5,9 +5,9 @@ module.exports = {
   mode: "none",
   // development
 
-  // devtool : "source-map",
+  devtool : "eval-source-map",
   // devtool : "eval",
-  // devtool : "eval-source-map",
+  // devtool : "source-map",
   // devtool : "cheap-eval-source-map",
 
   //production 
