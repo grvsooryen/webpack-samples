@@ -1,6 +1,6 @@
 // some module
-import("./chunk1");
 import("./chunk2");
+import("./chunk1");
 
 // some async loaded module
 function component() {

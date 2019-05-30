@@ -12,7 +12,7 @@ module.exports = {
 	],
 
 	optimization: {
-		runtimeChunk: true
+		runtimeChunk: ture
 	},
 
 	output: {
