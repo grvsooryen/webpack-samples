@@ -6,9 +6,10 @@ module.exports = {
 
 	mode: "production",
 
-	entry: {
-		app: "./index.js"
-	},
+	entry: [
+		"./index.js",
+		"./index1.js"
+	],
 
 	optimization: {
 		runtimeChunk: true
@@ -16,8 +17,8 @@ module.exports = {
 
 	output: {
 		path: path.join(__dirname, "dist"),
-		filename: "[name].chunkhash.js",
-		chunkFilename: "[name].chunkhash.js"
+		filename: "app.js",
+		chunkFilename: "[name].js"
 	},
 
 	plugins: [
