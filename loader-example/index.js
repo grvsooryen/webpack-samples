@@ -1,9 +1,9 @@
-import "./test.css";
+import "./customStyles.css";
 
-function component() {
-    const element = document.createElement('h1');
-    element.innerHTML = "Webpack Loaders";
-    return element;
+function createHeader() {
+    const headerElement = document.createElement('h1');
+    headerElement.innerHTML = "Webpack Loaders!";
+    return headerElement;
   }
   
-  document.body.appendChild(component());
+  document.body.appendChild(createHeader());
