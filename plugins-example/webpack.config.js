@@ -21,11 +21,12 @@ module.exports = {
   },
 
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   filename : "index.html",
-    // }),
-    // new CleanWebpackPlugin(),
-    // new MinifyPlugin()
+    new HtmlWebpackPlugin({
+      filename : "index.html",
+      title: "Webpack Plugins"
+    }),
+    new MinifyPlugin(),
+    new CleanWebpackPlugin()
   ]
 
 };
