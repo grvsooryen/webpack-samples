@@ -15,12 +15,17 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].min.js"
+    // String substitutions
+    // [name]
+    // [contenthash]
   },
 
   plugins: [
-    new CleanWebpackPlugin(),
-    new MinifyPlugin(),
-    new HtmlWebpackPlugin()
+    // new HtmlWebpackPlugin({
+    //   filename : "index.html",
+    // }),
+    // new CleanWebpackPlugin(),
+    // new MinifyPlugin()
   ]
 
 };
