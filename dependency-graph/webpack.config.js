@@ -7,7 +7,7 @@ module.exports = {
   mode: "none",
 
   entry: {
-    index: "./src/index.js",
+    module: "./src/module.js",
     vendor: "./src/vendor.js"
   },
 
