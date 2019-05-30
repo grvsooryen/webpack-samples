@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
 
-  mode: "none", // "production" | "development" | "none"
+  mode: "development", // "production" | "development" | "none"
   // Chosen mode tells webpack to use its built-in optimizations accordingly
 
   entry: './src/index.js', // string | object | array
